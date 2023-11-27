@@ -1,0 +1,123 @@
+p{
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.head{
+ font-size: larger;
+ font-weight: bolder;
+}
+.note{
+  color: rgb(70, 69, 69);
+  font-size: small;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.words{
+  width: 240px;
+  font-size: 14px;
+  font-weight: 550px;
+  margin-bottom: 20px;
+  
+  
+}
+.button{
+  background-color: rgb(4, 121, 4);
+  height: 30px;
+  text-align: center;
+  width: 90px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background-color 0.5s;
+  
+  
+}
+.button:focus {
+  outline: 1px dotted #000;
+}
+.button:hover{
+  background-color: rgb(6, 95, 6);
+  transition: background-color 0.4s
+}
+.hashtag{
+  color: rgb(99, 96, 96);
+  margin-left: 10px;
+}
+.free{
+  font-weight: bold;
+}
+
+
+/* styles for flexboxes exercises */
+
+.exercise-div{
+border:none;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+width: 410px;
+margin-top: 60px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 5px;
+padding-top: 10px;
+padding-right: px;
+padding-bottom: 10px;
+
+}
+
+.opening-text{
+  margin-top: px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  font-size: 14px;
+  color: rgb(127, 124, 124);
+}
+.profile-picture{
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  align-items: center;
+  margin-top: 6px;
+
+}
+.first-para{
+ font-size: 18px;
+ font-weight: bolder;
+ margin-bottom: 4px;
+}
+.second-para{
+ font-size: 14px;
+ font-weight: bold;
+ margin-bottom: 4px;
+}
+.third-para{
+ font-size: 13px;
+ color: rgb(127, 124, 124);
+}
+
+ /* all flexes */
+
+.flex{  
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  
+  
+}
+.time{
+  margin-right: 3px;
+  font-size: 12px;
+  flex: 1;
+  margin-right:0px;
+}
+.item{
+  margin-right: 1px;
+}
+.profile{
+  flex: 5;
+}
+
+

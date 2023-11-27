@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="taskstyle.css">
+  <title>New Password</title>
+</head>
+<body style="padding-bottom: 500px;
+background-color: rgb(240, 235, 235);
+">
+  <div> <!--main div-->
+  <p class="head">New Password</p>
+
+  <div class="container"> <!--this is the div with border -->
+   
+     <div class="flex"> <!--div of container-->
+
+   <div class="set-new-password"> <!--div for "set new password"-->
+    <p class="A">
+      Set New Password
+    </p>
+
+   </div>
+
+   <div class="new-password"> <!--div for new password-->
+    <p class="B">New Password</p>
+   </div>
+
+   <div class="password"> <!--comfirm password textbox-->
+    <!-- Password input field -->
+    <input class="textbox" type="password" placeholder=" ......">
+    <!-- Eye icon to toggle password visibility -->
+    <img class="toggle-password" src="/icons/eye.png">
+ </div>
+
+ <script>
+  // JavaScript to toggle password visibility
+  const togglePassword = document.querySelector('.toggle-password');
+  const passwordField = document.querySelector('.textbox');
+
+  togglePassword.addEventListener('click', function() {
+      const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+      passwordField.setAttribute('type', type);
+      // Change the icon source based on the state
+      this.src = type === 'password' ? 'eye_icon.png' : 'eye_slash_icon.png';
+  });
+</script>
+
+   <div> <!--comfirm password div-->
+   <p class="C">Comfirm Password</p>  
+   </div>
+
+   <div class="password"> <!--comfirm password textbox-->
+      <!-- Password input field -->
+      <input class="textbox" type="password" placeholder=" ......">
+      <!-- Eye icon to toggle password visibility -->
+      <img class="toggle-password" src="/icons/eye.png">
+   </div>
+
+   <script>
+    // JavaScript to toggle password visibility
+    const togglePassword = document.querySelector('.toggle-password');
+    const passwordField = document.querySelector('.textbox');
+
+    togglePassword.addEventListener('click', function() {
+        const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordField.setAttribute('type', type);
+        // Change the icon source based on the state
+        this.src = type === 'password' ? 'eye_icon.png' : 'eye_slash_icon.png';
+    });
+</script>
+
+   <div> <!--div for good password-->
+   <p class="good-password">
+     &#10003; Good password</p>
+   </div>
+   
+   <div class="checkbox-flex"> <!--checkbox-->
+    <input class="checkbox" type="checkbox"> 
+    <p class="para">I hereby accept the
+       <span class="terms">
+        <a class="link" href="https://www.terms&conditons.com" target="_blank">
+          T&C</a></span></p>
+   </div>
+
+   <button class="button">
+    Sign Up
+   </button>
+
+
+    </div> <!--closing div for container-->
+
+
+  </div> <!--closing div for the one with border-->
+
+  </div> <!--main div-->
+
+
+
+</body>
+</html>

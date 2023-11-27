@@ -1,0 +1,95 @@
+/* general styles */
+div{
+  font-family: arial;
+}
+p{
+  font-family: arial;
+}
+
+/* styles for home and notification */
+.container-1{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 60px;
+  
+}
+.menu{
+  width: 350px;
+  font-size: 19px;
+  
+  
+}
+.button{
+  background-color: rgb(49, 109, 245);
+  border: none;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+
+  
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  
+}
+
+
+/* styles for violet searchbox */
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(120, 66, 179);
+  height: 50px;
+  align-items: center;
+  max-width: 700px;
+  
+}
+.home{
+  color: white;
+  margin-left: 15px;
+}
+.download{
+  margin-right: 10px;
+  
+  
+}
+
+.download-button{
+  height: 30px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: rgb(120, 66, 179);
+  color: rgb(228, 223, 223);
+  border-color: rgb(207, 202, 202);
+  border-style: solid;
+  border-radius: 2px;
+  
+
+}
+.search{
+  width: 400px;
+  height: 25px;
+  padding-left: 15px; 
+  border-radius: 20px;
+  border: none;
+}
+.search:focus{
+  outline: none;
+}

@@ -1,0 +1,108 @@
+.head{
+  margin-left: 103px;
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: darkgrey;
+}
+
+.container{
+ 
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-top: 8px;
+  width: 300px;
+  background-color: white;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+  
+}
+.flex{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.checkbox-flex{
+  display: flex;
+}
+
+.textbox{
+  margin-bottom: 10px;
+  width: 250px;
+  height: 27px;
+  border-color: rgb(235, 231, 231);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+ input:focus{
+  outline: none;
+}
+.textbox::placeholder{
+  margin-left: 5px;
+ 
+}
+.good-password{
+  font-size: 9px;
+  color: lightgreen;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.button{
+  width: 300px;
+  height: 40px;
+  background-color: #1d9bf0;
+  border: none;
+  color: white;
+  font-weight: 50px;
+  border-radius: 7px;
+  text-align: center;
+} 
+.terms{
+  color: #1d9bf0;
+  
+}
+.link{
+  text-decoration: none;
+  color: #1d9bf0;
+}
+
+.new-password{
+  font-size: 14px;
+  margin-top: 0px;
+}
+.A{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.B{
+  font-weight: 900;
+}
+.C{
+  margin-bottom: 20px;
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.password {
+  position: relative;
+}
+.password .textbox {
+  padding-right: 30px; /* Make space for the icon */
+}
+.password .toggle-password {
+  position: absolute;
+  right: 5px; /* Adjust icon position */
+  top: 50%; /* Vertically center the icon */
+  transform: translateY(-70%);
+  cursor: pointer; /* Show pointer cursor on hover */
+  height: 10px;
+}
